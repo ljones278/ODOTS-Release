@@ -8,7 +8,7 @@ ODOTS, the Open Design Orienteering Timing System, is a project to develop a tim
 
 The ODOTS is currently still in development with a proof of concept system expected to be made before the end of September 2019.
 
-All files for the ODOTS can be found at its [Github Repository](https://github.com/ljones278/ODOTS-Release/), the current [Specification and User Guide](https://github.com/ljones278/ODOTS-Release/blob/master/docs/ODOTSManualAndUserGuide.pdf) was last updated on 10 September 2019.
+All files for the ODOTS can be found at its [Github Repository](https://github.com/ljones278/ODOTS-Release/), the current [Specification and User Guide](https://raw.githubusercontent.com/ljones278/ODOTS-Release/master/docs/ODOTSManualAndUserGuide.pdf) was last updated on 10 September 2019.
 
 ## Progress
 
