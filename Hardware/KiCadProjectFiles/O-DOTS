@@ -1,0 +1,37 @@
+Source,C:/Users/Lawrence/Documents/GitHub/JETS/Phase3-ProductionorUsable/pcb/O-DOTS.sch
+Kicad Rev,Eeschema 4.0.4-stable
+Generated Date,09/09/2019 14:49:27
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+BT1,Battery,device,Battery
+IC1,ATMEGA328P-P,atmel,ATMEGA328P-P
+U2,DS1337,Timer_RTC,DS1337
+SP1,Buzzer,device,SPEAKER
+D2,LED,device,LED
+D1,LED,device,LED
+R2,200,device,R
+R1,200,device,R
+R3,1k,device,R
+RC1,2k1,device,R
+Y1,Crystal,device,Crystal
+RC4,2k1,device,R
+RC2,2k1,device,R
+RC3,2k1,device,R
+U1,FQD5P20,fqd5p20,FQD5P20
+C1,10uF,device,CP
+C2,10uF,device,CP
+C3,10uF,device,CP
+uCOSC1,Crystal,device,Crystal
+OscCap1,22pF,device,C
+OscCap2,22pF,device,C
+RReset1,10k,device,R
+ResetButton1,SW_PUSH,device,SW_PUSH
+3.3Vreg1,L78L33ABZ-AP,regul,LM78L05ACZ
+5Vreg1,L78M05abv,regul,SPX2920U-5.0
+U4,RFIDHeader,O-DOTS-cache,RFIDHeader
+U3,SerialHeader,O-DOTS-cache,SerialHeader
