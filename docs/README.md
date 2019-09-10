@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## What is ODOTS?
 
-You can use the [editor on GitHub](https://github.com/ljones278/ODOTS-Release/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+ODOTS, the Open Design Orienteering Timing System, is a project to develop a timing system for orienteering events and training that has an accessible and open design. The big advantage of this approach is a drastically reduced implementation cost, good for clubs starting up or looking to have events in high risk areas!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The ODOTS is currently still in development with a proof of concept system expected to be made before the end of September 2019.
 
-### Markdown
+All files for the ODOTS can be found at its [Github Repository](https://github.com/ljones278/ODOTS-Release/), the current [Specification and User Guide]{https://github.com/ljones278/ODOTS-Release/docs/ODOTSManualAndUserGuide.pdf} was last updated on 10 September 2019.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#Contributing
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ljones278/ODOTS-Release/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The ODOTS is still very early in its development, however if you have ideas for things you would like to add, questions about the design or require support in using the ODOTS, please contact [me](l.jones4243@gmail.com)
