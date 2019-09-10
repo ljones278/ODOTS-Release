@@ -28,7 +28,7 @@ image: https://raw.githubusercontent.com/ljones278/ODOTS-Release/master/docs/ass
 
     <header class="page-header" role="banner">
 	  <img src="{{ page.image | default: site.logo }}" width=60% alt="{{ page.title | default: site.title | default: site.github.repository_name }}" class="project-name" />
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h2 class="project-tagline">{{ firmware, software, hardware design and documentation release repository | page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
