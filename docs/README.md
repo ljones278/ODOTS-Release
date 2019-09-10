@@ -1,4 +1,4 @@
-# Welcome to the ODOTS 
+## Welcome to the ODOTS 
 
 This is the main page for the Open Design Orienteering timing system, still in development. More pages and information 
 
