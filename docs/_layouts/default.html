@@ -1,6 +1,4 @@
----
-asset_path: /assets/
----
+
   
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
@@ -27,8 +25,7 @@ asset_path: /assets/
     
 
     <header class="page-header" role="banner">
-	  <img src="/images/ODOTS14-8-19.png" alt="ODOTSLogo.png" width=30%>
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+	  <img src="/assets/images/ODOTS14-8-19.png" alt={{ page.title | default: site.title | default: site.github.repository_name }} width=30%>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
