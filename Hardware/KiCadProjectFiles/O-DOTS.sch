@@ -45,17 +45,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Battery BT1
-U 1 1 5D3057BC
-P 1100 2950
-F 0 "BT1" H 1200 3000 50  0000 L CNN
-F 1 "Battery" H 1200 2900 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" V 1100 2990 50  0001 C CNN
-F 3 "" V 1100 2990 50  0000 C CNN
-	1    1100 2950
-	1    0    0    -1  
-$EndComp
 Text GLabel 950  3250 0    60   Input ~ 0
 GND
 $Comp
@@ -211,7 +200,7 @@ U 1 1 5D7290EE
 P 8350 1650
 F 0 "U1" H 8350 1650 60  0000 C CNN
 F 1 "FQD5P20" H 8350 1650 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8350 1650 60  0001 C CNN
+F 2 "TO_SOT_Packages_THT:TO-251_IPAK_Vertical" H 8350 1650 60  0001 C CNN
 F 3 "" H 8350 1650 60  0001 C CNN
 	1    8350 1650
 	1    0    0    -1  
@@ -315,19 +304,6 @@ F 3 "" H 1400 2100 50  0000 C CNN
 	1    1400 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L SPX2920U-5.0 5Vreg1
-U 1 1 5D72E08C
-P 1500 2700
-F 0 "5Vreg1" H 1500 2950 50  0000 C CNN
-F 1 "L78M05abv" H 1500 2900 50  0000 C CNN
-F 2 "Power_Integrations:TO-220" H 1500 2800 50  0000 C CIN
-F 3 "" H 1500 2700 50  0000 C CNN
-	1    1500 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1100 3100 1100 7000
 Wire Wire Line
 	1100 7000 6700 7000
 Wire Wire Line
@@ -341,17 +317,11 @@ Wire Wire Line
 Wire Wire Line
 	2700 2850 3250 2850
 Wire Wire Line
-	1100 5050 3300 5050
-Connection ~ 1550 5050
-Wire Wire Line
 	1100 5150 3250 5150
-Connection ~ 1550 5150
 Wire Wire Line
 	1950 2250 1950 6750
 Wire Wire Line
-	1950 6750 6500 6750
-Wire Wire Line
-	6500 6750 6500 6250
+	6500 6250 6500 6750
 Wire Wire Line
 	6500 6250 9800 6250
 Wire Wire Line
@@ -452,8 +422,6 @@ Wire Wire Line
 Wire Wire Line
 	950  3250 2800 3250
 Connection ~ 1100 3250
-Wire Wire Line
-	1100 2450 1100 2800
 Connection ~ 1100 5050
 Connection ~ 1100 5150
 Wire Wire Line
@@ -507,7 +475,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 5050 5150 5050
 Wire Wire Line
-	3150 3450 3250 3450
+	3050 3450 3250 3450
 Connection ~ 3150 3150
 Wire Wire Line
 	7600 1650 7850 1650
@@ -619,14 +587,11 @@ Wire Wire Line
 Wire Wire Line
 	1000 2450 1100 2450
 Wire Wire Line
-	1900 2650 1950 2650
+	800  2650 1950 2650
 Connection ~ 1950 2650
 Connection ~ 1100 2650
 Wire Wire Line
-	1500 2950 1500 3250
-Connection ~ 1500 3250
-Wire Wire Line
-	1400 2350 1850 2350
+	1400 2350 2550 2350
 Wire Wire Line
 	1850 2350 1850 3250
 Connection ~ 1850 3250
@@ -702,4 +667,175 @@ Wire Wire Line
 	5400 1650 5950 1650
 Wire Wire Line
 	5300 1750 5950 1750
+$Comp
+L CP C4
+U 1 1 5D7B60ED
+P 2900 4050
+F 0 "C4" H 2925 4150 50  0000 L CNN
+F 1 "10uF" H 2925 3950 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm" H 2938 3900 50  0001 C CNN
+F 3 "" H 2900 4050 50  0000 C CNN
+	1    2900 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 4050 3050 3450
+Connection ~ 3150 3450
+Wire Wire Line
+	2750 4050 2750 4800
+Wire Wire Line
+	2750 4800 1100 4800
+Connection ~ 1100 4800
+$Comp
+L BatteryInterface U5
+U 1 1 5D7B6AC6
+P 800 4100
+F 0 "U5" H 800 4100 60  0000 C CNN
+F 1 "BatteryInterface" H 800 4100 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 800 4100 60  0001 C CNN
+F 3 "" H 800 4100 60  0001 C CNN
+	1    800  4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	950  3350 1100 3350
+Connection ~ 1100 3350
+Wire Wire Line
+	800  3350 800  2650
+Wire Wire Line
+	1100 2450 1100 2650
+Wire Wire Line
+	1100 3250 1100 7000
+Connection ~ 1950 6750
+$Comp
+L R RADC2
+U 1 1 5D7B83D8
+P 3500 1500
+F 0 "RADC2" V 3580 1500 50  0000 C CNN
+F 1 "10k" V 3500 1500 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3430 1500 50  0001 C CNN
+F 3 "" H 3500 1500 50  0000 C CNN
+	1    3500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R RADC1
+U 1 1 5D7B8441
+P 3500 1950
+F 0 "RADC1" V 3580 1950 50  0000 C CNN
+F 1 "2k1" V 3500 1950 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3430 1950 50  0001 C CNN
+F 3 "" H 3500 1950 50  0000 C CNN
+	1    3500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R RADCpu1
+U 1 1 5D7B8492
+P 3050 900
+F 0 "RADCpu1" V 3130 900 50  0000 C CNN
+F 1 "2k1" V 3050 900 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2980 900 50  0001 C CNN
+F 3 "" H 3050 900 50  0000 C CNN
+	1    3050 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L FQD5P20 U6
+U 1 1 5D7B8A17
+P 4250 1100
+F 0 "U6" H 4250 1100 60  0000 C CNN
+F 1 "FQD5P20" H 4250 1100 60  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-251_IPAK_Vertical" H 4250 1100 60  0001 C CNN
+F 3 "" H 4250 1100 60  0001 C CNN
+	1    4250 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 1300 3500 1300
+Wire Wire Line
+	3500 1300 3500 1350
+Wire Wire Line
+	3500 1650 3500 1800
+Wire Wire Line
+	2800 1100 3750 1100
+Wire Wire Line
+	3050 1100 3050 1050
+Wire Wire Line
+	3050 750  3750 750 
+Wire Wire Line
+	3750 550  3750 900 
+Wire Wire Line
+	3750 550  650  550 
+Wire Wire Line
+	650  550  650  3350
+Connection ~ 3750 750 
+Wire Wire Line
+	2800 1100 2800 2300
+Wire Wire Line
+	2800 2300 5200 2300
+Wire Wire Line
+	5200 2300 5200 2950
+Wire Wire Line
+	5200 2950 5150 2950
+Connection ~ 3050 1100
+Wire Wire Line
+	3500 2100 3500 2250
+Wire Wire Line
+	3500 2250 2550 2250
+Wire Wire Line
+	2550 2250 2550 2350
+Connection ~ 1850 2350
+Wire Wire Line
+	5150 3800 5250 3800
+Wire Wire Line
+	5250 3800 5250 1750
+Wire Wire Line
+	5250 1750 3500 1750
+Connection ~ 3500 1750
+Connection ~ 1100 6750
+Wire Wire Line
+	6500 6750 1950 6750
+Wire Wire Line
+	1100 5050 3250 5050
+Text Label 3700 6750 0    60   ~ 0
+5V
+Text Label 3700 7000 0    60   ~ 0
+GND
+Text Label 6900 5650 0    60   ~ 0
+5V
+Text Label 9800 4700 0    60   ~ 0
+5V
+Text Label 6750 3550 0    60   ~ 0
+GND
+Text Label 8250 1200 0    60   ~ 0
+5V
+Text Label 7800 2850 0    60   ~ 0
+GND
+Text Label 7600 1850 0    60   ~ 0
+SIG
+Text Label 7500 4000 0    60   ~ 0
+I2C_BUS
+Text Label 7100 4650 0    60   ~ 0
+Int_Line
+Text Label 6900 5050 0    60   ~ 0
+5V
+Text Label 5800 5900 0    60   ~ 0
+RST_Line
+Text Label 1950 3600 0    60   ~ 0
+5V
+Text Label 2500 3600 0    60   ~ 0
+3.3V
+Text Label 3050 3600 0    60   ~ 0
+5V
+Text Label 1100 3600 0    60   ~ 0
+GND
+Text Label 3500 2200 0    60   ~ 0
+GND
+Text Label 2800 1700 0    60   ~ 0
+V_control
+Text Label 3750 650  0    60   ~ 0
+V_batt
+Text Label 3750 1750 0    60   ~ 0
+V_out
 $EndSCHEMATC
