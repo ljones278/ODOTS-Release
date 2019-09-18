@@ -8,11 +8,11 @@ ODOTS, the Open Design Orienteering Timing System, is a project to develop a tim
 
 The ODOTS is currently still in development with a proof of concept system expected to be made before the end of September 2019.
 
-All files for the ODOTS can be found at its [Github Repository](https://github.com/ljones278/ODOTS-Release/), the current [Specification and User Guide](https://raw.githubusercontent.com/ljones278/ODOTS-Release/master/docs/ODOTSManualAndUserGuide.pdf) was last updated on 10 September 2019.
+All files for the ODOTS can be found at its [Github Repository](https://github.com/ljones278/ODOTS-Release/), the current [Specification and User Guide](https://raw.githubusercontent.com/ljones278/ODOTS-Release/master/docs/ODOTSManualAndUserGuide.pdf) was last updated on 18 September 2019.
 
 ## Progress
 
-Ongoing progress on the ODOTS proof of concept is being documented [here](https://justonemoreresistor.blogspot.com/search/label/ODOTS).
+Ongoing progress on the ODOTS proof of concept is being documented [here](https://justonemoreresistor.blogspot.com/search/label/ODOTS). Currently further development is waiting on the production of PCBs, in the meantime progress is continuing on writing tutorials and documentation for the Specification and User Guide.
 
 ### Contributing
 

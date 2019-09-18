@@ -280,11 +280,11 @@ class ODOTS_Serial_Interface():
         #poll input port and handle downloads
         TestByte=self.ActivePort.read(1)
         try:
-			FileName = self.InterceptDownloadMessage(TestByte)
-			#self.ActivePort.reset_input_buffer() #good for getting rid of any extras
-			return FileName
-		except:
-			False
+            FileName = self.InterceptDownloadMessage(TestByte)
+            #self.ActivePort.reset_input_buffer() #good for getting rid of any extras
+            return FileName
+        except:
+            return False
 if __name__=='__main__':
         
     S=ODOTS_Serial_Interface(Verbose=True)

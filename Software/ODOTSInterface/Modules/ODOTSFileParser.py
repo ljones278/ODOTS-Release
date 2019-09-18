@@ -85,7 +85,7 @@ class FileParserTCPWriter():
                     SecondHalfPunches.append(PunchRecords[1])
 
             else:
-                #concatonate second and first half punches (all second halfs will have occured after fisrt halves!
+                #concatonate second and first half punches (all second halves will have occured after first halves!
                 for PunchRecord in SecondHalfPunches:
                     FirstHalfPunches.append(PunchRecord)
                 return FirstHalfPunches
