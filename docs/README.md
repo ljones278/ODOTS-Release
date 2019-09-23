@@ -21,7 +21,7 @@ Ongoing progress on the ODOTS proof of concept is being documented [here](https:
 
 The ODOTS is still very early in its development, however if you have ideas for things you would like to add, questions about the design or require support in using the ODOTS, please contact me (l.jones278).
 
-#Latest News
+# Latest News
 
 __*13/09/2019*__ Whoop whoop, fighting with the Veroboard design finally convinced my to go and investigate PCBs. It turns out that they are far less tricky than they appear, and offer a number of advantages without that much of a cost penalty, full discussion [here](https://justonemoreresistor.blogspot.com/2019/09/pcbs-increase-in-coolness.html).
 
