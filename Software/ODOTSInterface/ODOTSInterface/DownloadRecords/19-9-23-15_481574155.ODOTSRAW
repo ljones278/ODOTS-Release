@@ -1,0 +1,4 @@
+Card UID: 0B 3D B4 1C
+Card SAK: 08
+PICC type: MIFARE 1KB
+MIFARE_Read() failed: Timeout in communication.

@@ -2,7 +2,7 @@
 
 This is the main page for the Open Design Orienteering timing system, still in development.
 
-## What is ODOTS?
+## What is the ODOTS?
 
 ODOTS, the Open Design Orienteering Timing System, is a project to develop a timing system for orienteering events and training that has an accessible and open design. The big advantage of this approach is a drastically reduced implementation cost, good for clubs starting up or looking to have events in high risk areas!
 
