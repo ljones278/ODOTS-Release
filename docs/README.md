@@ -15,7 +15,7 @@ All files for using the ODOTS can be found at its [Github Repository](https://gi
 
 ## Progress
 
-Ongoing progress on the ODOTS proof of concept is being documented [here](https://justonemoreresistor.blogspot.com/search/label/ODOTS). Currently further development is waiting on the production of PCBs, in the meantime progress is continuing on writing tutorials and documentation for the Specification and User Guide.
+Ongoing progress on the ODOTS proof of concept is being documented [here](https://justonemoreresistor.blogspot.com/search/label/ODOTS). Currently it is full steam ahead producing a set of units that can be used in a practical demonstration, as way of closing the proof of concept stage of this project.
 
 ### Contributing
 
