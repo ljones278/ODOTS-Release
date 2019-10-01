@@ -6,16 +6,16 @@ This is the main page for the Open Design Orienteering timing system, still in d
 
 ODOTS, the Open Design Orienteering Timing System, is a project to develop a timing system for orienteering events and training that has an accessible and open design. The big advantage of this approach is a drastically reduced implementation cost, good for clubs starting up or looking to have events in high risk areas!
 
-The ODOTS is currently still in development with a proof of concept system expected to be made before the end of September 2019.
+The ODOTS proof of concept has now been constructed and is awaiting practical demonstration.
 
-All files for using the ODOTS can be found at its [Github Repository](https://github.com/ljones278/ODOTS-Release/), documentation can be found in the current [Specification and User Guide](https://raw.githubusercontent.com/ljones278/ODOTS-Release/master/docs/ODOTSManualAndUserGuide.pdf) was last updated on 18 September 2019. Source Code for the embedded firmware and software interface can be found in their own repositories: [Firmware](https://github.com/ljones278/ODOTS-Firmware) and [Software](https://github.com/ljones278/ODOTS-Interface)
+All files for using the ODOTS can be found at its [Github Repository](https://github.com/ljones278/ODOTS-Release/), documentation can be found in the current [Specification and User Guide](https://raw.githubusercontent.com/ljones278/ODOTS-Release/master/docs/ODOTSManualAndUserGuide.pdf) was last updated on 1 October 2019. Source Code for the embedded firmware and software interface can be found in their own repositories: [Firmware](https://github.com/ljones278/ODOTS-Firmware) and [Software](https://github.com/ljones278/ODOTS-Interface)
 
 
 ![FlagBanner.jpg](https://raw.githubusercontent.com/ljones278/ODOTS-Release/master/docs/assets/images/FlagBanner.JPG)
 
 ## Progress
 
-Ongoing progress on the ODOTS proof of concept is being documented [here](https://justonemoreresistor.blogspot.com/search/label/ODOTS). Currently it is full steam ahead producing a set of units that can be used in a practical demonstration, as way of closing the proof of concept stage of this project.
+Ongoing progress on the ODOTS proof of concept is being documented [here](https://justonemoreresistor.blogspot.com/search/label/ODOTS). Currently the proof of concept units are being finished with a public practical demonstration expected in the near future.
 
 ### Contributing
 
