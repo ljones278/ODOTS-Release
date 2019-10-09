@@ -23,11 +23,13 @@ The ODOTS is still very early in its development, however if you have ideas for 
 
 # Latest News
 
+__*09/10/2019*__ The Proof of Concept Units have been boxed up and prepared for demonstration, though this may not be for a while. Full report [here](https://justonemoreresistor.blogspot.com/2019/10/odots-boxen.html)
+
 __*28/09/2019*__ The PCBs have arrived and a couple all put together. They work, and look very slick. With these pieces coming together the final dimensions of the ODOTS proof of concept hardware are now known so enclosures are on order and the home straight has officially been reached! Full report [here](https://justonemoreresistor.blogspot.com/2019/09/pcbs-pile-on-ice-cubes.html).
 
 __*13/09/2019*__ Whoop whoop, fighting with the Veroboard design finally convinced my to go and investigate PCBs. It turns out that they are far less tricky than they appear, and offer a number of advantages without that much of a cost penalty, full discussion [here](https://justonemoreresistor.blogspot.com/2019/09/pcbs-increase-in-coolness.html).
 
-__*12/09/2019*__ Power consumption is an interesting topic for any project, no less an RF device that has to last for days unattended. Some simple tricks mean that the ODOTS has quaroupled its predicted endurance, though there is still a long way to go. Full report [here](https://justonemoreresistor.blogspot.com/2019/09/small-steps-are-never-as-easy-as-you.html).
+__*12/09/2019*__ Power consumption is an interesting topic for any project, no less an RF device that has to last for days unattended. Some simple tricks mean that the ODOTS has quadrupled its predicted endurance, though there is still a long way to go. Full report [here](https://justonemoreresistor.blogspot.com/2019/09/small-steps-are-never-as-easy-as-you.html).
 
 ### Thanks
 
